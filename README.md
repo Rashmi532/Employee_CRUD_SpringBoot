@@ -3,16 +3,24 @@ A simple CRUD web application built using Spring Boot, Spring Data JPA, and Thym
 
 🚀 Features
 -Create, Read, Update, Delete employees
+
 -Thymeleaf-based UI
+
 -Integrated with H2/MySQL
+
 -Simple and clean project structure
 
 🛠️ Tech Stack
 -Java 8+
+
 -Spring Boot
+
 -Spring Data JPA
+
 -Thymeleaf
+
 -H2 / MySQL
+
 -Maven
 
 ⚙️ How to Run
