@@ -1,0 +1,22 @@
+<!-- templates/searchResult.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Result</title>
+</head>
+<body>
+    <h2>Employee Details</h2>
+
+    <div th:if="${employee != null}">
+        <p><strong>ID:</strong> <span th:text="${employee.id}"></span></p>
+        <p><strong>Name:</strong> <span th:text="${employee.name}"></span></p>
+        <p><strong>Salary:</strong> <span th:text="${employee.salary}"></span></p>
+    </div>
+
+    <div th:if="${employee == null}">
+        <p style="color:red;">Employee not found!</p>
+    </div>
+
+    <a href="/searchPage">Back</a>
+</body>
+</html>
