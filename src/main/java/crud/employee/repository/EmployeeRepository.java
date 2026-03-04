@@ -6,5 +6,5 @@ import crud.employee.entity.Employee;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Long>
 {
-
+  
 }
